@@ -1,0 +1,21 @@
+.row {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.column-1-of-4 {
+    display: block;
+    background-color: $primary-orange;
+    float: left;
+    width: calc(100% / 3);
+    padding: 5rem;
+}
+
+.column-3-of-4 {
+    display: block;
+    background-color: $primary-yellow;
+    float: left;
+    width: calc(2 * (100% / 3) / 3);
+    padding: 5rem;
+}

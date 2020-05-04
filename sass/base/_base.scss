@@ -1,0 +1,46 @@
+// RESET
+
+*,
+*::before,
+*::after,
+html,
+body, 
+div, 
+span, 
+h1, h2, h3, h4, h5, h6, p, 
+a, 
+code,
+img,
+dl, dt, dd, ol, ul, li,
+form, label, legend,
+article, 
+aside, 
+footer, header, nav {
+    margin: 0rem;
+    padding: 0rem;
+    border: 0rem;
+    text-decoration: none;
+    box-sizing: inherit;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+// GLOBAL STYLING
+
+html {
+    // Definition for using 1rem as the base for calculation >>> 1rem = 10px
+    font-size: 62.5%;
+}
+
+body {
+    font-family: calling-code, sans-serif;
+    font-style: normal;
+    font-size: 1.6rem;
+    font-weight: 400;
+
+    width: 100vw;
+
+    box-sizing: border-box;
+}

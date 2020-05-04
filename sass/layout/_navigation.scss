@@ -1,0 +1,26 @@
+.navigation {
+
+    &_box {
+        
+    }
+
+    &__list {
+
+    }
+
+    &__item {
+        margin-bottom: 4rem;
+    }
+
+    &__link {
+        color: $color-white;
+        font-size: 1.8rem;
+        letter-spacing: .1rem;
+        text-transform: uppercase;
+        line-height: 2.1rem;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
