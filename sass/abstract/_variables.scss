@@ -1,12 +1,19 @@
-/* primary colours */
 
-// #FFCE59 - #FFA323 - #FF6337 - #004A2F - #002F35
+/* ---------------RGB - PRIMARY COLORS--------------- */
 
-$primary-dark-green: #002F35;
-$primary-light-green: #004A2F;
-$primary-orange: #FF6337;
-$primary-mustard: #FFA323;
-$primary-yellow: #FFCE59;
+$color-primary-blue: rgba(3, 37, 53, 1);
 
-$color-white: #FFF;
-$color-black: #000;
+$color-primary-yellow: rgba(255, 181, 21, 1);
+
+$color-primary-mustard: rgba(255, 154, 0, 1);
+
+$color-primary-orange: rgba(255, 99, 12, 1);
+
+$color-primary-brick: rgba(218, 67, 2, 1);
+
+/* ---------------RGB - WHITE, BLACK AND GREYS--------------- */
+
+$color-white: rgba(251, 251, 242, 1);
+
+$color-black: rgba(35, 32, 32, 1);
+

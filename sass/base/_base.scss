@@ -15,12 +15,13 @@ dl, dt, dd, ol, ul, li,
 form, label, legend,
 article, 
 aside, 
-footer, header, nav {
+footer, header, nav, address {
     margin: 0rem;
     padding: 0rem;
     border: 0rem;
     text-decoration: none;
     box-sizing: inherit;
+    font-style: normal;
 }
 
 ol, ul {
@@ -40,7 +41,7 @@ body {
     font-size: 1.6rem;
     font-weight: 400;
 
-    width: 100vw;
+    min-width: 144rem;
 
     box-sizing: border-box;
 }

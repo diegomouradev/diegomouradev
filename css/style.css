@@ -1,4 +1,5 @@
-/* primary colours */
+/* ---------------RGB - PRIMARY COLORS--------------- */
+/* ---------------RGB - WHITE, BLACK AND GREYS--------------- */
 .u-margin-top-small {
   margin-top: 3rem; }
 
@@ -23,12 +24,13 @@ dl, dt, dd, ol, ul, li,
 form, label, legend,
 article,
 aside,
-footer, header, nav {
+footer, header, nav, address {
   margin: 0rem;
   padding: 0rem;
   border: 0rem;
   text-decoration: none;
-  box-sizing: inherit; }
+  box-sizing: inherit;
+  font-style: normal; }
 
 ol, ul {
   list-style: none; }
@@ -41,50 +43,38 @@ body {
   font-style: normal;
   font-size: 1.6rem;
   font-weight: 400;
-  width: 100vw;
+  min-width: 144rem;
   box-sizing: border-box; }
 
+/* ---------------FONTS--------------- */
 /* <link rel="stylesheet" href="https://use.typekit.net/paa4nqi.css">
 
 font-family: calling-code, sans-serif;
 font-style: normal;
 font-weight: 400;
 
-
 Calling Code Italic
-
     font-family: calling-code, sans-serif;
-
     font-weight: 400;
-
     font-style: italic;
 
 Calling Code Regular
-
     font-family: calling-code, sans-serif;
-
     font-weight: 400;
-
     font-style: normal;
 
 Calling Code Bold Italic
-
     font-family: calling-code, sans-serif;
-
     font-weight: 700;
-
     font-style: italic;
 
 Calling Code Bold
-
-    font-family: calling-code, sans-serif;
-
+    font-family: calling-code, sans-serif
     font-weight: 700;
-
     font-style: normal;
 */
 .heading-primary {
-  color: #FFF;
+  color: #fbfbf2;
   font-family: 'calling-code', sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -92,12 +82,22 @@ Calling Code Bold
   line-height: 6rem; }
 
 .paragraph-primary {
-  color: #FFF;
+  color: #fbfbf2;
   font-family: 'calling-code', sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1.8rem;
   line-height: 2.7rem; }
+
+.heading-secondary {
+  color: #232020;
+  font-family: 'calling-code', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  letter-spacing: .2rem;
+  text-transform: uppercase; }
 
 .row {
   width: 100%;
@@ -106,23 +106,37 @@ Calling Code Bold
 
 .column-1-of-4 {
   display: block;
-  background-color: #FF6337;
   float: left;
-  width: calc(100% / 3);
-  padding: 5rem; }
+  width: calc(100% / 3); }
 
 .column-3-of-4 {
   display: block;
-  background-color: #FFCE59;
   float: left;
-  width: calc(2 * (100% / 3) / 3);
-  padding: 5rem; }
+  width: calc(2 * (100% / 3) / 3); }
 
 .navigation__item {
   margin-bottom: 4rem; }
 
 .navigation__link {
-  color: #FFF;
+  color: #fbfbf2;
+  font-size: 1.8rem;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  line-height: 2.1rem; }
+  .navigation__link:hover {
+    text-decoration: underline; }
+
+/* HEADER HEADER HEADER HEADER */
+.header__wrap {
+  background-color: #032535;
+  padding: 5rem;
+  height: 100%; }
+
+.navigation__item {
+  margin-bottom: 4rem; }
+
+.navigation__link {
+  color: #fbfbf2;
   font-size: 1.8rem;
   letter-spacing: .1rem;
   text-transform: uppercase;
@@ -132,3 +146,24 @@ Calling Code Bold
 
 .social__item {
   display: inline-block; }
+
+.contact__item {
+  color: #fbfbf2;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  letter-spacing: .1rem; }
+
+.contact__item-email--link {
+  color: #fbfbf2; }
+
+/* MAIN MAIN MAIN MAIN*/
+.section {
+  padding: 5rem 2.5rem;
+  height: 100%; }
+  .section__writing {
+    background-color: #ffb515; }
+  .section__projects {
+    background-color: #ff9a00; }
+  .section__bio {
+    background-color: #ff630c; }
