@@ -36,15 +36,15 @@ ol, ul {
   list-style: none; }
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  box-sizing: border-box; }
 
 body {
   font-family: calling-code, sans-serif;
   font-style: normal;
   font-size: 1.6rem;
   font-weight: 400;
-  min-width: 144rem;
-  box-sizing: border-box; }
+  color: #1a1a1a; }
 
 /* ---------------FONTS--------------- */
 /* <link rel="stylesheet" href="https://use.typekit.net/paa4nqi.css">
@@ -90,11 +90,21 @@ Calling Code Bold
   line-height: 2.7rem; }
 
 .heading-secondary {
-  color: #232020;
+  color: #1a1a1a;
   font-family: 'calling-code', sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  letter-spacing: .2rem;
+  text-transform: uppercase; }
+
+.heading-terciary {
+  color: #1a1a1a;
+  font-family: 'calling-code', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.8rem;
   line-height: 1.8rem;
   letter-spacing: .2rem;
   text-transform: uppercase; }
@@ -113,18 +123,6 @@ Calling Code Bold
   display: block;
   float: left;
   width: calc(2 * (100% / 3) / 3); }
-
-.navigation__item {
-  margin-bottom: 4rem; }
-
-.navigation__link {
-  color: #fbfbf2;
-  font-size: 1.8rem;
-  letter-spacing: .1rem;
-  text-transform: uppercase;
-  line-height: 2.1rem; }
-  .navigation__link:hover {
-    text-decoration: underline; }
 
 /* HEADER HEADER HEADER HEADER */
 .header__wrap {
@@ -167,3 +165,10 @@ Calling Code Bold
     background-color: #ff9a00; }
   .section__bio {
     background-color: #ff630c; }
+  .section__title {
+    margin-bottom: 29.5rem; }
+  .section__nav {
+    margin-bottom: 26rem; }
+
+.category__wrap:not(:last-child) {
+  margin-bottom: 3.8rem; }

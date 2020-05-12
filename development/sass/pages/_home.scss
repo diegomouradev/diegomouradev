@@ -82,4 +82,19 @@
         background-color: $color-primary-orange;
         
     }
+
+    &__title {
+        margin-bottom: 29.5rem;
+    }
+
+    &__nav {
+        margin-bottom: 26rem;
+    }
+}
+
+.category {
+
+    &__wrap:not(:last-child) {
+        margin-bottom: 3.8rem;
+    }
 }

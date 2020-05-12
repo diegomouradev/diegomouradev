@@ -33,6 +33,7 @@ ol, ul {
 html {
     // Definition for using 1rem as the base for calculation >>> 1rem = 10px
     font-size: 62.5%;
+    box-sizing: border-box;
 }
 
 body {
@@ -40,8 +41,5 @@ body {
     font-style: normal;
     font-size: 1.6rem;
     font-weight: 400;
-
-    min-width: 144rem;
-
-    box-sizing: border-box;
+    color: $color-black;
 }
