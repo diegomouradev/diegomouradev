@@ -1,0 +1,24 @@
+// Header
+
+.header {
+    background-color: #262429;
+    padding: 10rem;
+
+    display: grid;
+    grid-template-columns: 80% 1fr;
+
+
+    &__heading {
+        grid-column: 1 / 3;
+    }
+
+    &__paragraph {
+        grid-column: 1 / 2;
+    }
+}
+
+
+
+
+
+

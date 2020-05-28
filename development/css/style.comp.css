@@ -1,3 +1,5 @@
+/* ---------------RGB - PRIMARY COLORS--------------- */
+/* ---------------RGB - WHITE, BLACK AND GREYS--------------- */
 *,
 *::before,
 *::after,
@@ -31,25 +33,9 @@ html {
 body {
   font-family: calling-code, sans-serif;
   font-style: normal;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 400; }
-
-.heading-primary {
-  font-size: 14.4rem;
-  color: #FF5E5E;
-  line-height: 90%;
-  margin-bottom: 5rem; }
-
-.paragraph-primary {
-  font-size: inherit;
-  color: #FF5E5E; }
 
 .header {
   background-color: #262429;
-  padding: 10rem;
-  display: grid;
-  grid-template-columns: 80% 1fr; }
-  .header__heading {
-    grid-column: 1 / 3; }
-  .header__paragraph {
-    grid-column: 1 / 2; }
+  height: 110vh; }

@@ -1,5 +1,4 @@
 // RESET
-
 *,
 *::before,
 *::after,
@@ -37,9 +36,9 @@ html {
 }
 
 body {
-    font-family: calling-code, sans-serif;
+    font-family: $font-primary;
     font-style: normal;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 400;
-    color: $color-black;
+    
 }
